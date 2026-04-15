@@ -39,7 +39,7 @@ function Hero() {
 
                         <div className="flex items-center gap-2 border border-purple-800 rounded-full px-4 py-1.5 mt-12">
                             <span className="w-2 h-2 bg-purple-400 rounded-full animate-pulse"></span>
-                            <span className="text-purple-400 text-xs tracking-widest uppercase">
+                            <span className="text-purple-400 text-[10px] tracking-widest uppercase">
                                 Available for Work
                             </span>
                         </div>
@@ -49,7 +49,7 @@ function Hero() {
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.6 }}
 
-                            className="text-4xl font-bold text-white">Hi, I'm <span className=" text-6xl font-mono bg-linear-to-r from-[#501297] via-[#9614bd] to-[#501297] bg-clip-text text-transparent drop-shadow-[0_0_10px_rgba(255,100,50,0.2)] animate-text">Ahsan</span></motion.div
+                            className="text-3xl font-bold text-white">Hi, I'm <span className=" text-5xl font-mono bg-linear-to-r from-[#501297] via-[#9614bd] to-[#501297] bg-clip-text text-transparent drop-shadow-[0_0_10px_rgba(255,100,50,0.2)] animate-text">Ahsan</span></motion.div
 
                         >
 
@@ -60,7 +60,7 @@ function Hero() {
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.8 }}
 
-                            className=' mb-5 text-4xl bg-linear-to-r from-[#501297] via-[#9c10c7] to-[#501297] bg-clip-text text-transparent drop-shadow-[0_0_10px_rgba(255,100,50,0.2)] font-semibold animate-text'>
+                            className='  text-3xl bg-linear-to-r from-[#501297] via-[#9c10c7] to-[#501297] bg-clip-text text-transparent drop-shadow-[0_0_10px_rgba(255,100,50,0.2)] font-semibold animate-text'>
                             <Typewriter words={["Full stack Devloper.", "AI Enthusiast.", 'MERN Stack Developer.']}
                                 loop={true}
                                 cursor
@@ -78,7 +78,7 @@ function Hero() {
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.9 }}
 
-                            className='md:text-md text-sm font-normal text-[#ebe1f7c7] font-memo opacity-50 p-4'>
+                            className='md:text-md text-[12px] font-normal text-[#ebe1f7c7] font-memo opacity-50 p-6'>
                             A passionate MERN Stack Developer who builds
                             real-world web applications with clean code
                             and modern UI. Currently exploring AI integration

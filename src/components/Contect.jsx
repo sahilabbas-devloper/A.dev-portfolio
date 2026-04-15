@@ -78,7 +78,7 @@ function Contect() {
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.7 }}
 
-                  className='border border-[#9614bd] bg-[#0a0a12] flex flex-col gap-2 w-90 h-102 p-4 rounded-sm'>
+                  className='border border-[#9614bd] bg-[#0a0a12] flex flex-col gap-2 w-80 h-102 p-4 rounded-sm'>
 
                   <div className="">
                     <h1 className='text-[10px] text-[#9614bd]'>CONTACT ----</h1>
@@ -138,7 +138,7 @@ function Contect() {
                   initial={{ opacity: 0, y: 80 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.8 }}
-                  className='border rounded-sm border-[#9614bd] bg-[#0a0a12] flex flex-col gap-2 w-90  h-auto p-4'
+                  className='border rounded-sm border-[#9614bd] bg-[#0a0a12] flex flex-col gap-2 w-80  h-auto p-4'
                 >
                   <label htmlFor=""
                     className='text-[10px] font-semibold text-[#c770e1f7]'
@@ -179,14 +179,13 @@ function Contect() {
                     type="submit"
                     className='mt-3 w-full  h-9 rounded-sm text-[#deadedf7]   bg-linear-to-r from-[#501297] via-[#9614bd] to-[#501297] bg-clip-border  drop-shadow-[0_0_10px_rgba(255,100,50,0.2)] animate-text'
                   >
-                    {Loading && (
-                      <div className='w-full h-screen fixed inset-0 bg-black/10 flex items-center justify-center z-50'>
+                    { Loading && (
+                                    <div className='fixed inset-0  bg-black/20 flex items-center justify-center z-50'>
 
-                        <div className='w-14 h-14 border-4 border-purple-700 border-t-transparent rounded-full animate-spin'></div>
-                      </div>
-
-                    )}
-
+                                         <div className='w-8 h-8 border-4 border-purple-800 border-t-transparent rounded-full animate-spin'></div>
+                                    </div>
+                                  
+                                )}
 
                     Send message  </button>
 

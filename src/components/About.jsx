@@ -9,16 +9,16 @@ function About() {
         <div className="w-full h-auto bg-[#0a0a12] flex items-center py-40 px-8 border-t border-b border-[#9614bd]" >
 
 
-          <div className="w-full h-screen pb-4  bg-[#0a0a12] flex md:flex-row flex-col md:justify-evenly gap-9  md:gap-6 items-center  text-white ">
+          <div className="w-full h-auto  pb-4  bg-[#0a0a12] flex md:flex-row flex-col md:justify-evenly gap-9  md:gap-6 items-center  text-white ">
 
-            <div className='btn-animated p-4 object-contain hover:shadow-[#8b1fac] hover:shadow-lg border-5 border-[#9614bd] w-90 h-90 rounded-full overflow-hidden  flex items-center justify-center text-md font-semibold bg-linear-to-r from-[#501297] via-[#9614bd] to-[#501297] bg-clip-text text-transparent  drop-shadow-[0_0_10px_rgba(255,100,50,0.2)] animate-text'>
+            <div className='btn-animated p-4 object-contain hover:shadow-[#8b1fac] hover:shadow-lg border-5 border-[#9614bd] w-70 h-70 rounded-full overflow-hidden  flex items-center justify-center text-md font-semibold bg-linear-to-r from-[#501297] via-[#9614bd] to-[#501297] bg-clip-text text-transparent  drop-shadow-[0_0_10px_rgba(255,100,50,0.2)] animate-text'>
 
               <motion.div
                 initial={{ opacity: 0, y: 80 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6 }}
 
-                className='w-150 h-100 overflow-hidden object-contain'>
+                className='w-150 h-80 overflow-hidden object-contain'>
                 <img src="profilepic.jpg" alt="Profilepic" />
               </motion.div>
 
@@ -29,7 +29,7 @@ function About() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
 
-              className='md:w-150 w-auto h-70 flex flex-col gap-2 '>
+              className='md:w-150 w-auto h-auto flex flex-col gap-2 '>
               <h1 className='text-[15px] text-[#9614bd]'>ABOUT ME ----</h1>
               <h1 className='text-4xl font-bold w-auto h-auto text-white'>Fresher with a <span className='text-[#9614bd]'>Builder's</span> mindset </h1>
               <p className='text-[#eee0f3af] w-auto h-auto mt-8'>I'm a <span className='text-[#9614bd]'>MERN stack Devloper </span> Who Loves turning ideas into real, working products.

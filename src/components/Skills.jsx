@@ -34,7 +34,7 @@ function Skills() {
         <div className="w-full h-auto bg-[#050508] flex items-center py-28 px-8 border-t border-b border-[#9614bd]" >
 
 
-          <div className="w-full mx-auto h-screen bg-[#050508] flex items-center justify-center text-white  flex-col gap-4">
+          <div className="w-full mx-auto h-auto bg-[#050508] flex items-center justify-center text-white  flex-col gap-4">
 
             <motion.div
               initial={{ opacity: 0, y: 80 }}
@@ -48,7 +48,7 @@ function Skills() {
 
 
 
-            <div className='flex flex-col md:flex-row items-center w-full   gap-5'>
+            <div className='flex flex-col md:flex-row items-center w-full h-auto gap-5'>
 
 
 
@@ -59,7 +59,7 @@ function Skills() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.7 }}
 
-                className='flex flex-col w-full border gap-6 border-[#9614bd] rounded-md p-6   ' >
+                className='flex flex-col w-full h-auto border gap-6 border-[#9614bd] rounded-md p-6   ' >
 
 
                 <div>
