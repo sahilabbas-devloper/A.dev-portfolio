@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animate-text {
+  background-size: 200% auto;
+  animation: gradientMove 4s linear infinite;
+}
+
+.btn-animated {
+  border: 2px solid;
+  animation: borderColor 4s linear infinite;
+}
+
+html{
+ scroll-behavior: smooth ;
+}
+
+@keyframes borderColor {
+  0%   { border-color: #501297; }
+  50%  { border-color: #9614bd; }
+  100% { border-color: #501297; }
+}
