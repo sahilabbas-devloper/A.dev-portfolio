@@ -9,32 +9,26 @@ import { DiMongodb } from "react-icons/di";
 import { RiTailwindCssFill } from "react-icons/ri";
 function Project() {
 
-  const scrollRef = useRef(null);
+   const scrollRef = useRef(null);
+  const isPaused = useRef(false);
 
   useEffect(() => {
     const container = scrollRef.current;
-    let isPaused = false;
+
     const interval = setInterval(() => {
-      if (container) {
+      if (container && !isPaused.current) {
+        const cardWidth = container.firstElementChild.getBoundingClientRect().width + 16;
+
         if (container.scrollLeft + container.clientWidth >= container.scrollWidth - 10) {
           container.scrollTo({ left: 0, behavior: 'smooth' });
         } else {
-          container.scrollBy({ left: 320, behavior: 'smooth' });
+          container.scrollBy({ left: cardWidth, behavior: 'smooth' });
         }
       }
     }, 2000);
 
-
-    container.addEventListener('mouseenter', () => isPaused = true);
-    container.addEventListener('mouseleave', () => isPaused = false);
-
-    return () => {
-      clearInterval(interval);
-      container.removeEventListener('mouseenter', () => isPaused = true);
-      container.removeEventListener('mouseleave', () => isPaused = false);
-    };
+    return () => clearInterval(interval);
   }, []);
-
 
 
   return (
@@ -57,9 +51,12 @@ function Project() {
               </div>
 
               <div
-                ref={scrollRef}
+               
+                 ref={scrollRef}
+                onMouseEnter={() => (isPaused.current = true)}
+                onMouseLeave={() => (isPaused.current = false)}
 
-                className='flex flex-row gap-6  p-4 overflow-x-auto w-full [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden'>
+                className='flex flex-row gap-4   overflow-x-auto w-full [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden'>
 
                 {/* card1*/}
                 <div className='shrink-0 flex flex-col w-80 md:w-80 h-auto bg-[#000001] border border-[#9614bd] rounded-md gap-2'>
