@@ -110,19 +110,19 @@ function Contect() {
 
                   <div className="flex items-center gap-5 w-full justify-center ">
 
-                    <a href="" className="text-[25px]">
+                    <a href="https://github.com/sahilabbas-devloper" className="text-[25px]">
                       <FaGithub />
                     </a>
 
-                    <a href="" className="text-[25px]" >
+                    <a href="https://www.facebook.com/sahil.abbas.55197" className="text-[25px]" >
                       < FaFacebookSquare />
                     </a>
 
-                    <a href="" className="text-[25px]" >
+                    <a href="https://www.instagram.com/sahil_abbas_10k" className="text-[25px]" >
                       <GrInstagram />
                     </a>
 
-                    <a href="" className="text-[25px]">
+                    <a href="https://www.linkedin.com/in/mohd-ahsan-811605386" className="text-[25px]">
                       <FaLinkedin />
                     </a>
 
@@ -182,7 +182,7 @@ function Contect() {
                     { Loading && (
                                     <div className='fixed inset-0  bg-black/20 flex items-center justify-center z-50'>
 
-                                         <div className='w-8 h-8 border-4 border-purple-800 border-t-transparent rounded-full animate-spin'></div>
+                                         <div className='w-8 h-8 border-4 border-white border-t-transparent rounded-full animate-spin'></div>
                                     </div>
                                   
                                 )}
@@ -203,15 +203,15 @@ function Contect() {
 
                <div className="flex items-center gap-5 w-full justify-center ">
 
-                    <a href="https://github.com/sahilabbas-devloper" className="text-[25px]">
+                    <a href="https://github.com/sahilabbas-devloper" target="blank" className="text-[25px]">
                       <FaGithub />
                     </a>
 
-                    <a href="" className="text-[25px]" >
+                    <a href="https://www.facebook.com/sahil.abbas.55197" className="text-[25px]" >
                       < FaFacebookSquare />
                     </a>
 
-                    <a href="" className="text-[25px]" >
+                    <a href="https://www.instagram.com/sahil_abbas_10k"  target="blank" className="text-[25px]" >
                       <GrInstagram />
                     </a>
 

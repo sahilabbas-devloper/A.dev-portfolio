@@ -395,8 +395,68 @@ function Project() {
                 </div>
 
 
-
+                
                 {/* card5*/}
+                <div className=' shrink-0 flex flex-col w-80 md:w-80 h-auto bg-[#000001] border border-[#9614bd] rounded-md gap-2'>
+
+                  <div className='w-full h-60 overflow-hidden object-cover rounded-t-md'>
+                    <img src="resume.png" alt="img"
+                      className='w-full h-60'
+                    />
+                  </div>
+
+                  <div className="md:mb-9 mb-4 p-2">
+                    <h1 className='text-[8px] text-[#9614bd]'>05 - Featured</h1>
+                    <h1 className=' text-md  font-bold w-auto h-auto text-white'> Resume GEN </h1>
+                    <p className='text-[12px] text-[#eee0f395]  mt-2 mb-2'>Build a professional resume with React and Tailwind using an easy step-by-step process and live preview.Instantly export your final design with a fast, one-click PDF download feature.</p>
+
+
+
+                    {/*ten stack*/}
+                    <div className="w-auto h-auto flex flex-wrap gap-2 mb-2">
+                      <div className='flex items-center gap-1.5  bg-[#270132] rounded-md border border-[#9614bd] pl-2 pr-2'>
+                        <div className="text-sm text-[#9614bd]">
+                          <FaReact />
+                        </div>
+
+                        <div>
+                          <h1 className='text-[8px] font-mono text-[#eee0f3af] '>React.js</h1>
+                        </div>
+                      </div>
+
+                      <div className='flex items-center gap-1.5  bg-[#270132] rounded-md border border-[#9614bd] pl-2 pr-2'>
+                        <div className="text-sm text-[#9614bd]">
+                          <RiTailwindCssFill />
+                        </div>
+
+                        <div>
+                          <h1 className='text-[8px] font-mono text-[#eee0f3af] '>Tailwind CSS</h1>
+                        </div>
+                      </div>
+
+
+
+                    
+
+
+                    </div>
+
+                    {/*links*/}
+                    <div>
+                      <h1 className="text-[12px] font-semibold ">Live Link : <a href="https://resume-gen-v1.vercel.app" className="text-[#9614bd]"> Resume GEN </a></h1>
+                      <h1 className="text-[12px] font-semibold ">GitHub Link : <a href="https://github.com/sahilabbas-devloper" className="text-[#9614bd]" >GitHub.Ahsan</a></h1>
+                    </div>
+
+
+
+
+                  </div>
+
+                </div>
+
+
+
+                {/* card6*/}
                 <div className='shrink-0  flex flex-col w-80 md:w-80 h-auto bg-[#000001] border border-[#9614bd] rounded-md gap-2'>
 
                   <div className='w-full h-60 overflow-hidden object-cover rounded-t-md'>
@@ -406,7 +466,7 @@ function Project() {
                   </div>
 
                   <div className="md:mb-9 mb-5 p-2">
-                    <h1 className='text-[8px] text-[#9614bd]'>05 - Featured</h1>
+                    <h1 className='text-[8px] text-[#9614bd]'>06 - Featured</h1>
                     <h1 className=' text-md  font-bold w-auto h-auto text-white'> Abbas Tuition — Client Website </h1>
                     <p className='text-[12px] text-[#eee0f395]  mt-2 mb-2'> Built and deployed a real client website for a tuition center. Features complete CRUD for managing students, courses, and announcements with a clean responsive UI.</p>
 
